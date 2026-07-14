@@ -2,7 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowRight, Check, Package, Calendar, Award } from "lucide-react";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { ProductCard } from "@/components/site/ProductCard";
-import { getProductBySlug, products } from "@/data/products";
+import { getProductBySlug, products, type Product } from "@/data/products";
 
 export const Route = createFileRoute("/product/$slug")({
   loader: ({ params }) => {
@@ -83,7 +83,7 @@ function ProductDetail() {
             <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{product.description}</p>
 
             <div className="mt-8 space-y-3">
-              {product.highlights.map((h) => (
+              {product.highlights.map((h: string) => (
                 <div key={h} className="flex items-start gap-3">
                   <span className="mt-0.5 grid h-6 w-6 place-items-center rounded-full bg-primary/10 text-primary">
                     <Check className="h-4 w-4" />
@@ -137,7 +137,7 @@ function ProductDetail() {
           <div className="mx-auto max-w-7xl px-4">
             <h2 className="font-serif text-2xl font-bold text-foreground">Related products</h2>
             <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {related.map((p) => (
+              {related.map((p: Product) => (
                 <ProductCard key={p.slug} product={p} />
               ))}
             </div>

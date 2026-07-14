@@ -3,7 +3,7 @@ import { SiteLayout } from "@/components/site/SiteLayout";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { ProductCard } from "@/components/site/ProductCard";
 import { categories, getCategory } from "@/data/categories";
-import { getProductsByCategory, type ProductCategory } from "@/data/products";
+import { getProductsByCategory, type ProductCategory, type Product } from "@/data/products";
 
 const validSlugs: ProductCategory[] = ["fruits", "vegetables", "canned", "dates", "juices", "frozen", "seafood"];
 
@@ -67,7 +67,7 @@ function CategoryPage() {
             <>
               <SectionHeading eyebrow={category.name} title={`${category.name} we export`} />
               <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-                {items.map((p) => (
+                {items.map((p: Product) => (
                   <ProductCard key={p.slug} product={p} />
                 ))}
               </div>
