@@ -52,7 +52,7 @@ function CategoryNotFound() {
 function CategoryPage() {
   const { category, items } = Route.useLoaderData();
   const { t } = useI18n();
-  const c = t.categories[category.slug];
+  const c = t.categories[category.slug as keyof typeof t.categories];
   return (
     <SiteLayout>
       <section className="relative py-20 text-primary-foreground">
@@ -111,7 +111,7 @@ function CategoryPage() {
                   params={{ category: oc.slug }}
                   className="rounded-xl border border-border bg-card p-4 text-center hover:shadow-md transition"
                 >
-                  <div className="font-semibold text-sm text-foreground">{t.categories[oc.slug].name}</div>
+                  <div className="font-semibold text-sm text-foreground">{t.categories[oc.slug as keyof typeof t.categories].name}</div>
                 </Link>
               ))}
           </div>

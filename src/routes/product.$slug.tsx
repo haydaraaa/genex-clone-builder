@@ -69,7 +69,7 @@ function ProductDetail() {
   const highlights = p?.highlights ?? product.highlights;
   const season = p?.season ?? product.season;
   const packaging = p?.packaging ?? product.packaging;
-  const catName = t.categories[product.category].name;
+  const catName = t.categories[product.category as keyof typeof t.categories].name;
 
   return (
     <SiteLayout>
