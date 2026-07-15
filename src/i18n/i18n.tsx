@@ -2,7 +2,8 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from "
 
 export type Lang = "en" | "ar";
 
-type Ctx = { lang: Lang; setLang: (l: Lang) => void; t: (typeof dict)["en"]; dir: "ltr" | "rtl" };
+type Dict = typeof dict.en;
+type Ctx = { lang: Lang; setLang: (l: Lang) => void; t: Dict; dir: "ltr" | "rtl" };
 
 const LangContext = createContext<Ctx | null>(null);
 
