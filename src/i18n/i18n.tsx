@@ -27,7 +27,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <LangContext.Provider value={{ lang, setLang, t: dict[lang], dir: lang === "ar" ? "rtl" : "ltr" }}>
+    <LangContext.Provider value={{ lang, setLang, t: dict[lang] as Dict, dir: lang === "ar" ? "rtl" : "ltr" }}>
       {children}
     </LangContext.Provider>
   );
