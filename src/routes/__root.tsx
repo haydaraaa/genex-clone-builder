@@ -82,15 +82,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Cairo Sky exports the finest Egyptian fruits, vegetables, dates, juices, and frozen products worldwide with world-class quality standards.",
+          "Cairo Sky exports Egyptian fruits, vegetables, dates, juices, and frozen products to Europe, the Gulf, and beyond.",
       },
       { property: "og:site_name", content: "Cairo Sky" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Cairo Sky — Premium Egyptian Agricultural Exports" },
+      { name: "twitter:title", content: "Cairo Sky — Premium Egyptian Agricultural Exports" },
+      { property: "og:description", content: "Cairo Sky exports Egyptian fruits, vegetables, dates, juices, and frozen products to Europe, the Gulf, and beyond." },
+      { name: "twitter:description", content: "Cairo Sky exports Egyptian fruits, vegetables, dates, juices, and frozen products to Europe, the Gulf, and beyond." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ab65fca6-fe4b-44eb-a968-9ce801918d15/id-preview-02e4efc0--6aaaca4a-5403-4635-81b7-8b78673566f8.lovable.app-1784909080727.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ab65fca6-fe4b-44eb-a968-9ce801918d15/id-preview-02e4efc0--6aaaca4a-5403-4635-81b7-8b78673566f8.lovable.app-1784909080727.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
