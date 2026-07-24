@@ -31,7 +31,7 @@ const featureIcons = [ShieldCheck, Truck, Headphones, BadgeDollarSign, Award, Sp
 
 function HomePage() {
   const { t } = useI18n();
-  const featured = products.slice(0, 8);
+  const featured = products.slice(0, 12);
   return (
     <SiteLayout>
       <section className="relative isolate overflow-hidden">
@@ -49,7 +49,7 @@ function HomePage() {
               {t.home.badge}
             </span>
             <h1 className="mt-5 font-serif text-4xl sm:text-6xl font-bold leading-tight">
-              <span dir="ltr">Cairo Sky</span>
+              <span dir="ltr">Cairo Sky {t.home.harvest}</span>
               <span className="block text-2xl sm:text-3xl font-medium mt-2 opacity-95">
                 {t.home.subtitle}
               </span>
@@ -60,11 +60,17 @@ function HomePage() {
                 to="/contact"
                 className="inline-flex items-center gap-2 rounded-md bg-primary-foreground px-5 py-3 text-sm font-semibold text-primary shadow-lg hover:bg-primary-foreground/90 transition"
               >
-                {t.home.quote} <ArrowRight className="h-4 w-4 rtl:rotate-180" />
+                {t.home.contactUs} <ArrowRight className="h-4 w-4 rtl:rotate-180" />
+              </Link>
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 rounded-md border border-primary-foreground/40 bg-primary-foreground/10 px-5 py-3 text-sm font-semibold text-primary-foreground backdrop-blur hover:bg-primary-foreground/20 transition"
+              >
+                {t.home.quote}
               </Link>
               <Link
                 to="/products"
-                className="inline-flex items-center gap-2 rounded-md border border-primary-foreground/40 bg-primary-foreground/10 px-5 py-3 text-sm font-semibold text-primary-foreground backdrop-blur hover:bg-primary-foreground/20 transition"
+                className="inline-flex items-center gap-2 rounded-md border border-primary-foreground/40 bg-transparent px-5 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary-foreground/10 transition"
               >
                 {t.home.ourProducts}
               </Link>
@@ -72,6 +78,7 @@ function HomePage() {
           </div>
         </div>
       </section>
+
 
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-4 grid gap-10 md:grid-cols-2 items-center">
