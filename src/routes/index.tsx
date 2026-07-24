@@ -169,7 +169,26 @@ function HomePage() {
         </div>
       </section>
 
+      <section className="py-20 bg-secondary/50 overflow-hidden">
+        <div className="mx-auto max-w-7xl px-4">
+          <SectionHeading eyebrow={t.home.partnersEyebrow} title={t.home.partnersTitle} description={t.home.partnersDesc} />
+          <div className="mt-12 relative">
+            <div className="flex gap-6 animate-[marquee_40s_linear_infinite] w-max">
+              {[...t.partners, ...t.partners].map((name, i) => (
+                <div
+                  key={`${name}-${i}`}
+                  className="shrink-0 w-48 h-24 rounded-xl border border-border bg-card grid place-items-center px-4 shadow-sm"
+                >
+                  <span dir="ltr" className="font-serif text-lg font-semibold text-foreground/80">{name}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20">
+
         <div className="mx-auto max-w-5xl px-4">
           <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary/80 p-10 sm:p-14 text-primary-foreground shadow-xl">
             <div className="max-w-2xl">
