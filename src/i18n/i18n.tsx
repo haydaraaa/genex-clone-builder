@@ -77,6 +77,11 @@ export const dict = {
       partnersEyebrow: "Trusted Worldwide",
       partnersTitle: "Our Partners & Clients Worldwide",
       partnersDesc: "Retailers, wholesalers, and distributors across Europe, the Gulf, and Africa.",
+      ownerEyebrow: "Leadership",
+      ownerTitle: "A word from our founder",
+      ownerQuote:
+        "Every carton that leaves our packhouse carries my name. We built Cairo Sky on one promise: the same quality in the box that we show you in the field.",
+      ownerName: "Founder & Managing Director, Cairo Sky",
       ctaTitle: "Looking for a Reliable Supplier?",
       ctaDesc: "Contact us today for the best price offers on our high-quality agricultural products.",
       whatsapp: "WhatsApp Us",
@@ -277,6 +282,15 @@ export const dict = {
         season: "Year-round",
         packaging: "5 kg carton",
       },
+      "sweet-potato": {
+        name: "Sweet Potatoes",
+        shortDescription: "Egyptian sweet potatoes packed for export",
+        description:
+          "Premium Egyptian sweet potatoes, washed, graded by size and packed in export cartons for European and Gulf markets.",
+        highlights: ["Beauregard variety", "Sizes 150–600 gm+", "Export cartons, Product of Egypt"],
+        season: "September – April",
+        packaging: "5 kg / 6 kg carton",
+      },
     },
   },
   ar: {
@@ -316,6 +330,11 @@ export const dict = {
       partnersEyebrow: "ثقة عالمية",
       partnersTitle: "شركاؤنا وعملاؤنا حول العالم",
       partnersDesc: "شبكات تجزئة وموزّعون وتجار جملة في أوروبا والخليج وأفريقيا.",
+      ownerEyebrow: "القيادة",
+      ownerTitle: "كلمة من مؤسس الشركة",
+      ownerQuote:
+        "كل كرتونة تخرج من محطة التعبئة تحمل اسمي. أسّسنا Cairo Sky على وعد واحد: نفس الجودة التي نُريها لك في المزرعة تجدها داخل الصندوق.",
+      ownerName: "المؤسس والعضو المنتدب – Cairo Sky",
       ctaTitle: "تبحث عن مورّد موثوق؟",
       ctaDesc: "تواصل معنا اليوم للحصول على أفضل الأسعار على منتجاتنا الزراعية عالية الجودة.",
       whatsapp: "راسلنا على واتساب",
@@ -515,6 +534,15 @@ export const dict = {
         highlights: ["نوع بيت ألفا", "طول موحّد", "خيار تغليف flow-wrap"],
         season: "طوال العام",
         packaging: "كرتون 5 كجم",
+      },
+      "sweet-potato": {
+        name: "بطاطا حلوة",
+        shortDescription: "بطاطا حلوة مصرية معبأة للتصدير",
+        description:
+          "بطاطا حلوة مصرية ممتازة، مغسولة ومصنّفة حسب الحجم ومعبأة في كراتين تصدير للأسواق الأوروبية والخليجية.",
+        highlights: ["صنف بيوريجارد", "أحجام 150–600 جم+", "كراتين تصدير – منتج مصر"],
+        season: "سبتمبر – أبريل",
+        packaging: "كرتون 5 – 6 كجم",
       },
     },
   },
