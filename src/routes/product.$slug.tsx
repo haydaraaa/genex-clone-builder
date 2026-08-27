@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowRight, Check, Package, Calendar, Award } from "lucide-react";
 import { SiteLayout } from "@/components/site/SiteLayout";
@@ -63,6 +64,9 @@ function ProductNotFound() {
 function ProductDetail() {
   const { product, related } = Route.useLoaderData();
   const { t } = useI18n();
+  const gallery: string[] = product.gallery?.length ? product.gallery : [product.image];
+  const [active, setActive] = useState(gallery[0]);
+  useEffect(() => setActive(gallery[0]), [product.slug]);
   const p = t.products_data[product.slug as keyof typeof t.products_data];
   const name = p?.name ?? product.name;
   const description = p?.description ?? product.description;
