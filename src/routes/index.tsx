@@ -108,6 +108,31 @@ function HomePage() {
         </div>
       </section>
 
+      <section className="py-20 bg-secondary/40">
+        <div className="mx-auto max-w-6xl px-4 grid gap-10 md:grid-cols-[minmax(0,420px)_1fr] items-center">
+          <div className="rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src="/__l5e/assets-v1/feb4f295-c42a-45a9-973e-2a81b98ef946/IMG-20260825-WA0006.jpg"
+              alt="Cairo Sky founder inspecting a carton of export lemons"
+              loading="lazy"
+              className="w-full h-[420px] object-cover"
+            />
+          </div>
+          <div>
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">
+              {t.home.ownerEyebrow}
+            </span>
+            <h2 className="mt-3 font-serif text-3xl sm:text-4xl font-bold text-foreground">
+              {t.home.ownerTitle}
+            </h2>
+            <blockquote className="mt-5 border-s-4 border-primary ps-5 text-lg text-muted-foreground leading-relaxed">
+              {t.home.ownerQuote}
+            </blockquote>
+            <div className="mt-5 text-sm font-semibold text-foreground">{t.home.ownerName}</div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-secondary/50">
         <div className="mx-auto max-w-7xl px-4">
           <SectionHeading eyebrow={t.home.featuredEyebrow} title={t.home.featuredTitle} description={t.home.featuredDesc} />
