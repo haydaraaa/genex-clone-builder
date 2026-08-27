@@ -87,8 +87,26 @@ function ProductDetail() {
 
       <section className="py-12">
         <div className="mx-auto max-w-7xl px-4 grid gap-10 lg:grid-cols-2">
-          <div className="rounded-2xl overflow-hidden shadow-xl bg-secondary">
-            <img src={product.image} alt={name} className="w-full h-[500px] object-cover" />
+          <div>
+            <div className="rounded-2xl overflow-hidden shadow-xl bg-secondary">
+              <img src={active} alt={name} className="w-full h-[500px] object-cover" />
+            </div>
+            {gallery.length > 1 && (
+              <div className="mt-4 grid grid-cols-4 gap-3">
+                {gallery.map((src: string, i: number) => (
+                  <button
+                    key={src}
+                    type="button"
+                    onClick={() => setActive(src)}
+                    className={`overflow-hidden rounded-lg border-2 transition ${
+                      active === src ? "border-primary" : "border-border hover:border-primary/50"
+                    }`}
+                  >
+                    <img src={src} alt={`${name} ${i + 1}`} loading="lazy" className="h-24 w-full object-cover" />
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
           <div>
             <span className="inline-block text-xs uppercase tracking-wider font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full">
