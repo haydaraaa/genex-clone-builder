@@ -77,6 +77,11 @@ export const dict = {
       partnersEyebrow: "Trusted Worldwide",
       partnersTitle: "Our Partners & Clients Worldwide",
       partnersDesc: "Retailers, wholesalers, and distributors across Europe, the Gulf, and Africa.",
+      ownerEyebrow: "Leadership",
+      ownerTitle: "A word from our founder",
+      ownerQuote:
+        "Every carton that leaves our packhouse carries my name. We built Cairo Sky on one promise: the same quality in the box that we show you in the field.",
+      ownerName: "Founder & Managing Director, Cairo Sky",
       ctaTitle: "Looking for a Reliable Supplier?",
       ctaDesc: "Contact us today for the best price offers on our high-quality agricultural products.",
       whatsapp: "WhatsApp Us",
@@ -325,6 +330,11 @@ export const dict = {
       partnersEyebrow: "ثقة عالمية",
       partnersTitle: "شركاؤنا وعملاؤنا حول العالم",
       partnersDesc: "شبكات تجزئة وموزّعون وتجار جملة في أوروبا والخليج وأفريقيا.",
+      ownerEyebrow: "القيادة",
+      ownerTitle: "كلمة من مؤسس الشركة",
+      ownerQuote:
+        "كل كرتونة تخرج من محطة التعبئة تحمل اسمي. أسّسنا Cairo Sky على وعد واحد: نفس الجودة التي نُريها لك في المزرعة تجدها داخل الصندوق.",
+      ownerName: "المؤسس والعضو المنتدب – Cairo Sky",
       ctaTitle: "تبحث عن مورّد موثوق؟",
       ctaDesc: "تواصل معنا اليوم للحصول على أفضل الأسعار على منتجاتنا الزراعية عالية الجودة.",
       whatsapp: "راسلنا على واتساب",
