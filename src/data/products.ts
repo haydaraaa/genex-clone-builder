@@ -69,7 +69,12 @@ export const products: Product[] = [
     shortDescription: "Egyptian mangoes with a unique tropical flavor",
     description:
       "Sun-ripened Egyptian mangoes celebrated for their sweetness and fiber-free flesh — a signature product for Gulf and European clients.",
-    image: "https://www.genex-corp.com/__l5e/assets-v1/4b6f3838-aa15-4c5b-803a-2e478ae18fef/mango-real.jpg",
+    image: "/__l5e/assets-v1/98f3877b-33b0-48bc-8ec4-41817cf6f1f6/IMG-20260825-WA0088.jpg",
+    gallery: [
+      "/__l5e/assets-v1/98f3877b-33b0-48bc-8ec4-41817cf6f1f6/IMG-20260825-WA0088.jpg",
+      "/__l5e/assets-v1/51fade36-863e-40dd-a3f3-44f9d9488d11/IMG-20260825-WA0075.jpg",
+      "/__l5e/assets-v1/5e03ef8f-50a6-4aee-b3c7-e837acc96c6f/IMG-20260825-WA0078.jpg",
+    ],
     highlights: ["Keitt, Naomi, Zebda", "Hand-selected", "Ripeness-controlled"],
     season: "June – October",
     packaging: "4 kg / 5 kg cartons",
@@ -82,7 +87,11 @@ export const products: Product[] = [
     shortDescription: "Juicy Egyptian pomegranates with distinctive taste",
     description:
       "Deep-red Egyptian pomegranates with high juice content and long storage life, perfect for retail and juicing.",
-    image: "https://www.genex-corp.com/__l5e/assets-v1/506c9cec-81a3-4676-8dcf-bc7b1d309aae/pomegranate-real.jpg",
+    image: "/__l5e/assets-v1/2469613d-0ae2-46bd-b882-81bea3d1e4fe/IMG-20260825-WA0112.jpg",
+    gallery: [
+      "/__l5e/assets-v1/2469613d-0ae2-46bd-b882-81bea3d1e4fe/IMG-20260825-WA0112.jpg",
+      "/__l5e/assets-v1/bea980dc-8765-4804-8324-3117042f392b/IMG-20260825-WA0113.jpg",
+    ],
     highlights: ["Wonderful variety", "Rich in antioxidants", "Sea & air freight"],
     season: "September – December",
     packaging: "4.5 kg carton",
@@ -177,6 +186,25 @@ export const products: Product[] = [
     highlights: ["Beit Alpha type", "Uniform length", "Flow-wrap option"],
     season: "Year-round",
     packaging: "5 kg carton",
+  },
+  {
+    slug: "sweet-potato",
+    name: "Sweet Potatoes",
+    category: "vegetables",
+    categoryLabel: "Vegetables",
+    shortDescription: "Egyptian sweet potatoes packed for export",
+    description:
+      "Premium Egyptian sweet potatoes, washed, graded by size and packed in export cartons for European and Gulf markets.",
+    image: "/__l5e/assets-v1/0304cc86-7496-4560-b2ad-980e9dbec329/IMG-20260825-WA0090.jpg",
+    gallery: [
+      "/__l5e/assets-v1/0304cc86-7496-4560-b2ad-980e9dbec329/IMG-20260825-WA0090.jpg",
+      "/__l5e/assets-v1/7f91e863-971f-4e06-8020-6486fc5940e1/IMG-20260825-WA0089.jpg",
+      "/__l5e/assets-v1/2ee2c278-3eb3-4b99-87e8-ec8de2ee9e50/IMG-20260716-WA0157.jpg",
+      "/__l5e/assets-v1/1f91b5fc-c3fe-4046-9b12-763822a523d8/IMG-20260716-WA0173.jpg",
+    ],
+    highlights: ["Beauregard variety", "Sizes 150–600 gm+", "Export cartons, Product of Egypt"],
+    season: "September – April",
+    packaging: "5 kg / 6 kg carton",
   },
 ];
 
