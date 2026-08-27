@@ -277,6 +277,15 @@ export const dict = {
         season: "Year-round",
         packaging: "5 kg carton",
       },
+      "sweet-potato": {
+        name: "Sweet Potatoes",
+        shortDescription: "Egyptian sweet potatoes packed for export",
+        description:
+          "Premium Egyptian sweet potatoes, washed, graded by size and packed in export cartons for European and Gulf markets.",
+        highlights: ["Beauregard variety", "Sizes 150–600 gm+", "Export cartons, Product of Egypt"],
+        season: "September – April",
+        packaging: "5 kg / 6 kg carton",
+      },
     },
   },
   ar: {

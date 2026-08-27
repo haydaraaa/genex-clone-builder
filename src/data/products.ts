@@ -15,6 +15,7 @@ export interface Product {
   shortDescription: string;
   description: string;
   image: string;
+  gallery?: string[];
   highlights: string[];
   season?: string;
   packaging?: string;
