@@ -43,7 +43,11 @@ export const products: Product[] = [
     shortDescription: "Fresh strawberries with vibrant color and great taste",
     description:
       "Bright, aromatic Egyptian strawberries selected for firmness and flavor — ideal for fresh markets and premium retail across Europe and the Gulf.",
-    image: "https://www.genex-corp.com/__l5e/assets-v1/b9354f1a-e733-4eb5-8604-2550770991a6/st1.jpg",
+    image: "/__l5e/assets-v1/53b7d6b9-b135-467e-bb37-205410c428ca/IMG-20260825-WA0093.jpg",
+    gallery: [
+      "/__l5e/assets-v1/53b7d6b9-b135-467e-bb37-205410c428ca/IMG-20260825-WA0093.jpg",
+      "/__l5e/assets-v1/5c05415a-cecc-4440-abd4-bcf41cd067ac/IMG-20260825-WA0094.jpg",
+    ],
     highlights: ["Festival & Fortuna varieties", "Refrigerated logistics", "Uniform grading"],
     season: "November – April",
     packaging: "250g / 500g punnets",
