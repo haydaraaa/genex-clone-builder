@@ -109,7 +109,11 @@ export const products: Product[] = [
     shortDescription: "Fresh white guava rich in Vitamin C",
     description:
       "Aromatic Egyptian white guavas with balanced sweetness, harvested and cooled within hours of picking.",
-    image: "https://www.genex-corp.com/__l5e/assets-v1/04c99c6b-ee7c-44c7-9765-2cde3bc3880d/gv1.jpg",
+    image: "/__l5e/assets-v1/62fbf59b-206e-4768-b28f-0863e910caef/FB_IMG_1782418764347.jpg",
+    gallery: [
+      "/__l5e/assets-v1/62fbf59b-206e-4768-b28f-0863e910caef/FB_IMG_1782418764347.jpg",
+      "https://www.genex-corp.com/__l5e/assets-v1/04c99c6b-ee7c-44c7-9765-2cde3bc3880d/gv1.jpg",
+    ],
     highlights: ["Rich Vitamin C", "Firm texture", "Uniform sizing"],
     season: "August – December",
     packaging: "4 kg carton",
