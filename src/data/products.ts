@@ -215,6 +215,57 @@ export const products: Product[] = [
     season: "September – April",
     packaging: "5 kg / 6 kg carton",
   },
+  {
+    slug: "banana",
+    name: "Bananas",
+    category: "fruits",
+    categoryLabel: "Fruits",
+    shortDescription: "Green Cavendish bananas packed for export",
+    description:
+      "Firm green Cavendish bananas harvested at export maturity, labeled and packed in ventilated cartons with cold-chain handling.",
+    image: "/__l5e/assets-v1/6bb14bd3-12e7-4551-bc11-0bd8b46905b3/IMG-20260825-WA0105.jpg",
+    gallery: [
+      "/__l5e/assets-v1/6bb14bd3-12e7-4551-bc11-0bd8b46905b3/IMG-20260825-WA0105.jpg",
+      "/__l5e/assets-v1/dc42a8e4-1328-4420-b2a7-63ac09e18887/IMG-20260825-WA0104.jpg",
+    ],
+    highlights: ["Cavendish variety", "Labeled & liner-packed", "13.5 kg export cartons"],
+    season: "Year-round",
+    packaging: "13.5 kg carton",
+  },
+  {
+    slug: "onion",
+    name: "Onions",
+    category: "vegetables",
+    categoryLabel: "Vegetables",
+    shortDescription: "Egyptian golden and red onions in mesh bags",
+    description:
+      "Well-cured Egyptian onions with tight skins and long storage life, graded by size and packed in mesh bags or cartons for bulk export.",
+    image: "/__l5e/assets-v1/1efb2daf-8e15-4e87-811d-bebb48cfce33/FB_IMG_1774911658889.jpg",
+    gallery: [
+      "/__l5e/assets-v1/1efb2daf-8e15-4e87-811d-bebb48cfce33/FB_IMG_1774911658889.jpg",
+      "/__l5e/assets-v1/c8f6a10a-a6b2-49a2-869c-cccb95c5f792/IMG-20260508-WA0067.jpg",
+    ],
+    highlights: ["Golden & red varieties", "Sizes 40–90 mm", "Mesh bags 5/10/25 kg"],
+    season: "March – August",
+    packaging: "Mesh bags or 10 kg cartons",
+  },
+  {
+    slug: "barhi-dates",
+    name: "Barhi Dates",
+    category: "dates",
+    categoryLabel: "Dates",
+    shortDescription: "Fresh yellow Barhi dates, crisp and sweet",
+    description:
+      "Fresh yellow Barhi dates picked at the khalal stage — crisp, sweet and cooled immediately for air and sea freight to Gulf and European markets.",
+    image: "/__l5e/assets-v1/4f5436ee-c81d-4e76-a822-7194bc7f9beb/IMG-20260825-WA0085.jpg",
+    gallery: [
+      "/__l5e/assets-v1/4f5436ee-c81d-4e76-a822-7194bc7f9beb/IMG-20260825-WA0085.jpg",
+      "/__l5e/assets-v1/ab84e3ba-1d33-4b52-87c0-0d0b1431069f/IMG-20260825-WA0084.jpg",
+    ],
+    highlights: ["Khalal stage, yellow Barhi", "Cluster & loose packs", "Cold-chain from harvest"],
+    season: "July – September",
+    packaging: "5 kg carton",
+  },
 ];
 
 export const getProductsByCategory = (category: ProductCategory) =>
