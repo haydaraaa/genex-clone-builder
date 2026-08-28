@@ -78,6 +78,7 @@ export const products: Product[] = [
       "/__l5e/assets-v1/98f3877b-33b0-48bc-8ec4-41817cf6f1f6/IMG-20260825-WA0088.jpg",
       "/__l5e/assets-v1/51fade36-863e-40dd-a3f3-44f9d9488d11/IMG-20260825-WA0075.jpg",
       "/__l5e/assets-v1/5e03ef8f-50a6-4aee-b3c7-e837acc96c6f/IMG-20260825-WA0078.jpg",
+      "/__l5e/assets-v1/0b4d0ea7-a21f-4b82-8ea0-405716538ce6/IMG-20260718-WA0001.jpg",
     ],
     highlights: ["Keitt, Naomi, Zebda", "Hand-selected", "Ripeness-controlled"],
     season: "June – October",
