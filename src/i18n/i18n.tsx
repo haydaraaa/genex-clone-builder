@@ -291,6 +291,33 @@ export const dict = {
         season: "September – April",
         packaging: "5 kg / 6 kg carton",
       },
+      banana: {
+        name: "Bananas",
+        shortDescription: "Green Cavendish bananas packed for export",
+        description:
+          "Firm green Cavendish bananas harvested at export maturity, labeled and packed in ventilated cartons with cold-chain handling.",
+        highlights: ["Cavendish variety", "Labeled & liner-packed", "13.5 kg export cartons"],
+        season: "Year-round",
+        packaging: "13.5 kg carton",
+      },
+      onion: {
+        name: "Onions",
+        shortDescription: "Egyptian golden and red onions in mesh bags",
+        description:
+          "Well-cured Egyptian onions with tight skins and long storage life, graded by size and packed in mesh bags or cartons for bulk export.",
+        highlights: ["Golden & red varieties", "Sizes 40–90 mm", "Mesh bags 5/10/25 kg"],
+        season: "March – August",
+        packaging: "Mesh bags or 10 kg cartons",
+      },
+      "barhi-dates": {
+        name: "Barhi Dates",
+        shortDescription: "Fresh yellow Barhi dates, crisp and sweet",
+        description:
+          "Fresh yellow Barhi dates picked at the khalal stage — crisp, sweet and cooled immediately for air and sea freight to Gulf and European markets.",
+        highlights: ["Khalal stage, yellow Barhi", "Cluster & loose packs", "Cold-chain from harvest"],
+        season: "July – September",
+        packaging: "5 kg carton",
+      },
     },
   },
   ar: {
@@ -543,6 +570,33 @@ export const dict = {
         highlights: ["صنف بيوريجارد", "أحجام 150–600 جم+", "كراتين تصدير – منتج مصر"],
         season: "سبتمبر – أبريل",
         packaging: "كرتون 5 – 6 كجم",
+      },
+      banana: {
+        name: "موز",
+        shortDescription: "موز كافنديش أخضر معبأ للتصدير",
+        description:
+          "موز كافنديش أخضر متماسك يُجمع في مرحلة النضج التصديري، مُلصق بالعلامة ومعبأ في كراتين مهوّاة مع سلسلة تبريد كاملة.",
+        highlights: ["صنف كافنديش", "ملصقات وتغليف داخلي", "كراتين تصدير 13.5 كجم"],
+        season: "طوال العام",
+        packaging: "كرتون 13.5 كجم",
+      },
+      onion: {
+        name: "بصل",
+        shortDescription: "بصل مصري ذهبي وأحمر في شكائر شبكية",
+        description:
+          "بصل مصري مُعالج جيدًا بقشرة متماسكة وعمر تخزيني طويل، مصنّف حسب الحجم ومعبأ في شكائر شبكية أو كراتين للتصدير بكميات كبيرة.",
+        highlights: ["أصناف ذهبي وأحمر", "أحجام 40–90 مم", "شكائر 5/10/25 كجم"],
+        season: "مارس – أغسطس",
+        packaging: "شكائر شبكية أو كرتون 10 كجم",
+      },
+      "barhi-dates": {
+        name: "بلح برحي",
+        shortDescription: "بلح برحي أصفر طازج مقرمش وحلو المذاق",
+        description:
+          "بلح برحي أصفر طازج يُقطف في مرحلة الخلال — مقرمش وحلو ويتم تبريده فور الحصاد للشحن الجوي والبحري لأسواق الخليج وأوروبا.",
+        highlights: ["مرحلة الخلال – برحي أصفر", "عبوات عراجين وسائب", "سلسلة تبريد من الحصاد"],
+        season: "يوليو – سبتمبر",
+        packaging: "كرتون 5 كجم",
       },
     },
   },
