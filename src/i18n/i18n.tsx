@@ -291,6 +291,33 @@ export const dict = {
         season: "September – April",
         packaging: "5 kg / 6 kg carton",
       },
+      banana: {
+        name: "Bananas",
+        shortDescription: "Green Cavendish bananas packed for export",
+        description:
+          "Firm green Cavendish bananas harvested at export maturity, labeled and packed in ventilated cartons with cold-chain handling.",
+        highlights: ["Cavendish variety", "Labeled & liner-packed", "13.5 kg export cartons"],
+        season: "Year-round",
+        packaging: "13.5 kg carton",
+      },
+      onion: {
+        name: "Onions",
+        shortDescription: "Egyptian golden and red onions in mesh bags",
+        description:
+          "Well-cured Egyptian onions with tight skins and long storage life, graded by size and packed in mesh bags or cartons for bulk export.",
+        highlights: ["Golden & red varieties", "Sizes 40–90 mm", "Mesh bags 5/10/25 kg"],
+        season: "March – August",
+        packaging: "Mesh bags or 10 kg cartons",
+      },
+      "barhi-dates": {
+        name: "Barhi Dates",
+        shortDescription: "Fresh yellow Barhi dates, crisp and sweet",
+        description:
+          "Fresh yellow Barhi dates picked at the khalal stage — crisp, sweet and cooled immediately for air and sea freight to Gulf and European markets.",
+        highlights: ["Khalal stage, yellow Barhi", "Cluster & loose packs", "Cold-chain from harvest"],
+        season: "July – September",
+        packaging: "5 kg carton",
+      },
     },
   },
   ar: {
