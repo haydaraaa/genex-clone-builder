@@ -46,7 +46,7 @@ function ContactPage() {
             {[
               { Icon: Phone, label: t.contact.phone, value: site.phone, href: site.phoneHref, dir: "ltr" as const },
               { Icon: Mail, label: t.contact.email, value: site.email, href: site.emailHref, dir: "ltr" as const },
-              { Icon: MessageCircle, label: t.contact.whatsapp, value: t.contact.chat, href: site.whatsapp, dir: undefined },
+              { Icon: MessageCircle, label: t.contact.whatsapp, value: site.whatsappNumber, href: site.whatsapp, dir: "ltr" as const },
             ].map(({ Icon, label, value, href, dir }) => (
               <a
                 key={label}

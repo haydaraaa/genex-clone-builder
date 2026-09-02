@@ -172,8 +172,8 @@ export const dict = {
     site: {
       description: "Cairo Sky exports the finest Egyptian fruits, vegetables, dates, juices, and frozen products to Europe, the Gulf, and beyond.",
       offices: [
-        { city: "Cairo, Egypt", note: "Head Office" },
-        { city: "Alexandria, Egypt", note: "Export Hub" },
+        { city: "El Beheira – Desert Road, Km 59, El Yassin Station", note: "Head Office – Agricultural Produce Export" },
+        { city: "Alexandria – El Montazah", note: "Branch Office" },
       ],
     },
     categories: {
@@ -184,6 +184,7 @@ export const dict = {
       juices: { name: "Juices", description: "Natural juices from oranges, mangoes, guavas, strawberries and pomegranates." },
       frozen: { name: "Frozen Products", description: "IQF frozen fruits and vegetables of the highest export quality for European clients." },
       seafood: { name: "Frozen Seafood", description: "Premium IQF frozen shrimp, calamari, and fish fillets for European export." },
+      pickles: { name: "Pickles & Olives", description: "Green and black table olives, kalamata-style olives and pickled jalapeño peppers in brine." },
     },
     products_data: {
       orange: {
@@ -317,6 +318,33 @@ export const dict = {
         highlights: ["Khalal stage, yellow Barhi", "Cluster & loose packs", "Cold-chain from harvest"],
         season: "July – September",
         packaging: "5 kg carton",
+      },
+      "green-olives": {
+        name: "Green Table Olives",
+        shortDescription: "Whole, pitted and stuffed green olives in brine",
+        description:
+          "Egyptian green table olives fermented in natural brine and graded by caliber — available whole, pitted, sliced or cracked in olive oil for retail and food service.",
+        highlights: ["Whole, pitted & cracked", "Natural brine fermentation", "Retail jars & bulk pails"],
+        season: "Year-round",
+        packaging: "Glass jars, 1 kg tins, 10 kg pails",
+      },
+      "mixed-olives": {
+        name: "Mixed Olives Selection",
+        shortDescription: "Green, black and kalamata-style olives assortment",
+        description:
+          "A full assortment of Egyptian table olives — green, black, sliced and kalamata-style — prepared to export specifications for delis, retail and HORECA clients.",
+        highlights: ["Green, black & kalamata style", "Sliced or whole", "Custom brine recipes"],
+        season: "Year-round",
+        packaging: "Jars, tins and food-grade pails",
+      },
+      "pickled-jalapeno": {
+        name: "Pickled Jalapeño Peppers",
+        shortDescription: "Sliced jalapeño peppers pickled and canned",
+        description:
+          "Sliced green jalapeño peppers pickled in vinegar brine and canned in a modern facility — a consistent, shelf-stable topping for pizzerias, restaurants and retail.",
+        highlights: ["Uniform slicing", "Shelf-stable canning", "A10 tins & retail jars"],
+        season: "Year-round",
+        packaging: "A10 tins (2.9 kg), retail jars",
       },
     },
   },
@@ -452,8 +480,8 @@ export const dict = {
     site: {
       description: "تُصدِّر Cairo Sky أجود الفواكه والخضروات والتمور والعصائر والمنتجات المجمدة المصرية إلى أوروبا والخليج وما بعدهما.",
       offices: [
-        { city: "القاهرة، مصر", note: "المقر الرئيسي" },
-        { city: "الإسكندرية، مصر", note: "مركز التصدير" },
+        { city: "البحيرة – الطريق الصحراوي، الكيلو 59، محطة الياسين", note: "المقر الرئيسي – لتصدير الحاصلات الزراعية" },
+        { city: "الإسكندرية – المنتزه", note: "المقر الفرعي" },
       ],
     },
     categories: {
@@ -463,6 +491,7 @@ export const dict = {
       dates: { name: "تمور", description: "مجدول، عجوة، سُكري، برحي، دقلة نور وسعيدي بجودة عالية." },
       juices: { name: "عصائر", description: "عصائر طبيعية من البرتقال والمانجو والجوافة والفراولة والرمان." },
       frozen: { name: "منتجات مجمدة", description: "فواكه وخضروات مجمدة IQF بأعلى جودة تصديرية للعملاء الأوروبيين." },
+      pickles: { name: "مخللات وزيتون", description: "زيتون أخضر وأسود ومخلل الفلفل الهالبينو بجودة تصديرية في محلول ملحي طبيعي." },
       seafood: { name: "مأكولات بحرية مجمدة", description: "جمبري وكاليماري وفيليه سمك مجمد IQF بجودة عالية للتصدير الأوروبي." },
     },
     products_data: {
@@ -597,6 +626,33 @@ export const dict = {
         highlights: ["مرحلة الخلال – برحي أصفر", "عبوات عراجين وسائب", "سلسلة تبريد من الحصاد"],
         season: "يوليو – سبتمبر",
         packaging: "كرتون 5 كجم",
+      },
+      "green-olives": {
+        name: "زيتون أخضر للمائدة",
+        shortDescription: "زيتون أخضر كامل ومنزوع النوى ومحشو في محلول ملحي",
+        description:
+          "زيتون مائدة مصري أخضر يُخمَّر في محلول ملحي طبيعي ويُصنّف حسب الحجم — متاح كامل أو منزوع النوى أو شرائح أو مشقوق بزيت الزيتون للتجزئة والمطاعم.",
+        highlights: ["كامل ومنزوع النوى ومشقوق", "تخمير بمحلول ملحي طبيعي", "برطمانات تجزئة وعبوات كبيرة"],
+        season: "طوال العام",
+        packaging: "برطمانات زجاج، علب 1 كجم، عبوات 10 كجم",
+      },
+      "mixed-olives": {
+        name: "تشكيلة زيتون مشكل",
+        shortDescription: "تشكيلة زيتون أخضر وأسود وكالاماتا",
+        description:
+          "تشكيلة كاملة من زيتون المائدة المصري — أخضر وأسود وشرائح وكالاماتا — مُجهّزة بمواصفات تصديرية لمحلات الأغذية والتجزئة وقطاع الضيافة.",
+        highlights: ["أخضر وأسود وكالاماتا", "شرائح أو كامل", "وصفات تخليل حسب الطلب"],
+        season: "طوال العام",
+        packaging: "برطمانات وعلب وعبوات غذائية",
+      },
+      "pickled-jalapeno": {
+        name: "فلفل هالبينو مخلل",
+        shortDescription: "شرائح فلفل هالبينو مخللة ومعلبة",
+        description:
+          "شرائح فلفل هالبينو أخضر مخللة في محلول خل ومعلبة في مصنع حديث — إضافة ثابتة الجودة وطويلة الصلاحية للمطاعم والمخابز والتجزئة.",
+        highlights: ["تقطيع منتظم", "تعليب طويل الصلاحية", "علب A10 وبرطمانات تجزئة"],
+        season: "طوال العام",
+        packaging: "علب A10 (2.9 كجم) وبرطمانات",
       },
     },
   },

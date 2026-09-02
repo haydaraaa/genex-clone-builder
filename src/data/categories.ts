@@ -57,6 +57,13 @@ export const categories: Category[] = [
       "Premium IQF frozen shrimp, calamari, and fish fillets for European export.",
     image: "https://www.genex-corp.com/assets/category-seafood-BMJkehST.jpg",
   },
+  {
+    slug: "pickles",
+    name: "Pickles & Olives",
+    description:
+      "Green and black table olives, kalamata-style olives and pickled jalapeño peppers in brine.",
+    image: "/__l5e/assets-v1/a9fbfc9d-59ff-4799-93ae-6a32220d0b61/IMG-20260825-WA0034.jpg",
+  },
 ];
 
 export const getCategory = (slug: ProductCategory) =>

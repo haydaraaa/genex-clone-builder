@@ -5,7 +5,8 @@ export type ProductCategory =
   | "dates"
   | "juices"
   | "frozen"
-  | "seafood";
+  | "seafood"
+  | "pickles";
 
 export interface Product {
   slug: string;
@@ -265,6 +266,48 @@ export const products: Product[] = [
     highlights: ["Khalal stage, yellow Barhi", "Cluster & loose packs", "Cold-chain from harvest"],
     season: "July – September",
     packaging: "5 kg carton",
+  },
+  {
+    slug: "green-olives",
+    name: "Green Table Olives",
+    category: "pickles",
+    categoryLabel: "Pickles & Olives",
+    shortDescription: "Whole, pitted and stuffed green olives in brine",
+    description:
+      "Egyptian green table olives fermented in natural brine and graded by caliber — available whole, pitted, sliced or cracked in olive oil for retail and food service.",
+    image: "/__l5e/assets-v1/320f684e-d29a-4285-86c3-65458ef3e27d/IMG-20260825-WA0033.jpg",
+    gallery: ["/__l5e/assets-v1/320f684e-d29a-4285-86c3-65458ef3e27d/IMG-20260825-WA0033.jpg", "/__l5e/assets-v1/7942b711-64fc-48af-a7a5-a4873727b048/IMG-20260825-WA0049.jpg"],
+    highlights: ["Whole, pitted & cracked", "Natural brine fermentation", "Retail jars & bulk pails"],
+    season: "Year-round",
+    packaging: "Glass jars, 1 kg tins, 10 kg pails",
+  },
+  {
+    slug: "mixed-olives",
+    name: "Mixed Olives Selection",
+    category: "pickles",
+    categoryLabel: "Pickles & Olives",
+    shortDescription: "Green, black and kalamata-style olives assortment",
+    description:
+      "A full assortment of Egyptian table olives — green, black, sliced and kalamata-style — prepared to export specifications for delis, retail and HORECA clients.",
+    image: "/__l5e/assets-v1/a9fbfc9d-59ff-4799-93ae-6a32220d0b61/IMG-20260825-WA0034.jpg",
+    gallery: ["/__l5e/assets-v1/a9fbfc9d-59ff-4799-93ae-6a32220d0b61/IMG-20260825-WA0034.jpg", "/__l5e/assets-v1/e24f18d3-f709-40b2-bec9-7ca96885b93d/IMG-20260825-WA0053.jpg", "/__l5e/assets-v1/0154334a-3702-43a1-98e8-185d40c33c0f/IMG-20260825-WA0044.jpg", "/__l5e/assets-v1/a08d4135-ebf8-499b-88d8-94f06a9d0c4a/IMG-20260825-WA0052.jpg"],
+    highlights: ["Green, black & kalamata style", "Sliced or whole", "Custom brine recipes"],
+    season: "Year-round",
+    packaging: "Jars, tins and food-grade pails",
+  },
+  {
+    slug: "pickled-jalapeno",
+    name: "Pickled Jalapeño Peppers",
+    category: "pickles",
+    categoryLabel: "Pickles & Olives",
+    shortDescription: "Sliced jalapeño peppers pickled and canned",
+    description:
+      "Sliced green jalapeño peppers pickled in vinegar brine and canned in a modern facility — a consistent, shelf-stable topping for pizzerias, restaurants and retail.",
+    image: "/__l5e/assets-v1/ee9ec975-bead-44ae-bfc5-0b9cd9dbc204/IMG-20260825-WA0068.jpg",
+    gallery: ["/__l5e/assets-v1/ee9ec975-bead-44ae-bfc5-0b9cd9dbc204/IMG-20260825-WA0068.jpg", "/__l5e/assets-v1/707488b9-71d8-4be2-bb2d-75e93594eab0/IMG-20260825-WA0059.jpg"],
+    highlights: ["Uniform slicing", "Shelf-stable canning", "A10 tins & retail jars"],
+    season: "Year-round",
+    packaging: "A10 tins (2.9 kg), retail jars",
   },
 ];
 
