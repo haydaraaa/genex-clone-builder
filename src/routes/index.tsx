@@ -102,8 +102,8 @@ function HomePage() {
         <div className="mx-auto max-w-6xl px-4 grid gap-10 md:grid-cols-[minmax(0,420px)_1fr] items-center">
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/__l5e/assets-v1/feb4f295-c42a-45a9-973e-2a81b98ef946/IMG-20260825-WA0006.jpg"
-              alt="Cairo Sky founder inspecting a carton of export lemons"
+              src="/__l5e/assets-v1/089005b3-e8ba-4991-8d57-c87f1cb880cb/IMG-20260902-WA0003.jpg"
+              alt="Cairo Sky founder and managing director"
               loading="lazy"
               className="w-full h-[420px] object-cover"
             />
