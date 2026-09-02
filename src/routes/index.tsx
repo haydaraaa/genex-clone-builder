@@ -81,29 +81,19 @@ function HomePage() {
 
 
       <section className="py-20">
-        <div className="mx-auto max-w-7xl px-4 grid gap-10 md:grid-cols-2 items-center">
-          <div>
-            <SectionHeading
-              eyebrow={t.home.aboutEyebrow}
-              title={t.home.aboutTitle}
-              description={t.home.aboutDesc}
-              align="left"
-            />
-            <div className="mt-6 grid grid-cols-2 gap-4">
-              {t.stats.slice(0, 2).map((s) => (
-                <div key={s.label} className="rounded-xl border border-border bg-card p-5">
-                  <div className="font-serif text-3xl font-bold text-primary">{s.value}</div>
-                  <div className="text-sm text-muted-foreground mt-1">{s.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="rounded-2xl overflow-hidden shadow-xl">
-            <img
-              src="https://www.genex-corp.com/assets/category-fruits-b1JypkDD.jpg"
-              alt="Egyptian fruits"
-              className="w-full h-96 object-cover"
-            />
+        <div className="mx-auto max-w-4xl px-4">
+          <SectionHeading
+            eyebrow={t.home.aboutEyebrow}
+            title={t.home.aboutTitle}
+            description={t.home.aboutDesc}
+          />
+          <div className="mt-8 grid grid-cols-2 gap-4 max-w-xl mx-auto">
+            {t.stats.slice(0, 2).map((s) => (
+              <div key={s.label} className="rounded-xl border border-border bg-card p-5 text-center">
+                <div className="font-serif text-3xl font-bold text-primary">{s.value}</div>
+                <div className="text-sm text-muted-foreground mt-1">{s.label}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
