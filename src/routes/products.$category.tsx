@@ -6,7 +6,7 @@ import { categories, getCategory } from "@/data/categories";
 import { getProductsByCategory, type ProductCategory, type Product } from "@/data/products";
 import { useI18n } from "@/i18n/i18n";
 
-const validSlugs: ProductCategory[] = ["fruits", "vegetables", "canned", "dates", "juices", "frozen", "seafood"];
+const validSlugs: ProductCategory[] = ["fruits", "vegetables", "canned", "dates", "juices", "frozen", "seafood", "pickles"];
 
 export const Route = createFileRoute("/products/$category")({
   loader: ({ params }) => {

@@ -5,7 +5,8 @@ export type ProductCategory =
   | "dates"
   | "juices"
   | "frozen"
-  | "seafood";
+  | "seafood"
+  | "pickles";
 
 export interface Product {
   slug: string;
@@ -15,6 +16,7 @@ export interface Product {
   shortDescription: string;
   description: string;
   image: string;
+  gallery?: string[];
   highlights: string[];
   season?: string;
   packaging?: string;
@@ -42,7 +44,11 @@ export const products: Product[] = [
     shortDescription: "Fresh strawberries with vibrant color and great taste",
     description:
       "Bright, aromatic Egyptian strawberries selected for firmness and flavor — ideal for fresh markets and premium retail across Europe and the Gulf.",
-    image: "https://www.genex-corp.com/__l5e/assets-v1/b9354f1a-e733-4eb5-8604-2550770991a6/st1.jpg",
+    image: "/__l5e/assets-v1/53b7d6b9-b135-467e-bb37-205410c428ca/IMG-20260825-WA0093.jpg",
+    gallery: [
+      "/__l5e/assets-v1/53b7d6b9-b135-467e-bb37-205410c428ca/IMG-20260825-WA0093.jpg",
+      "/__l5e/assets-v1/5c05415a-cecc-4440-abd4-bcf41cd067ac/IMG-20260825-WA0094.jpg",
+    ],
     highlights: ["Festival & Fortuna varieties", "Refrigerated logistics", "Uniform grading"],
     season: "November – April",
     packaging: "250g / 500g punnets",
@@ -68,7 +74,13 @@ export const products: Product[] = [
     shortDescription: "Egyptian mangoes with a unique tropical flavor",
     description:
       "Sun-ripened Egyptian mangoes celebrated for their sweetness and fiber-free flesh — a signature product for Gulf and European clients.",
-    image: "https://www.genex-corp.com/__l5e/assets-v1/4b6f3838-aa15-4c5b-803a-2e478ae18fef/mango-real.jpg",
+    image: "/__l5e/assets-v1/98f3877b-33b0-48bc-8ec4-41817cf6f1f6/IMG-20260825-WA0088.jpg",
+    gallery: [
+      "/__l5e/assets-v1/98f3877b-33b0-48bc-8ec4-41817cf6f1f6/IMG-20260825-WA0088.jpg",
+      "/__l5e/assets-v1/51fade36-863e-40dd-a3f3-44f9d9488d11/IMG-20260825-WA0075.jpg",
+      "/__l5e/assets-v1/5e03ef8f-50a6-4aee-b3c7-e837acc96c6f/IMG-20260825-WA0078.jpg",
+      "/__l5e/assets-v1/0b4d0ea7-a21f-4b82-8ea0-405716538ce6/IMG-20260718-WA0001.jpg",
+    ],
     highlights: ["Keitt, Naomi, Zebda", "Hand-selected", "Ripeness-controlled"],
     season: "June – October",
     packaging: "4 kg / 5 kg cartons",
@@ -81,7 +93,11 @@ export const products: Product[] = [
     shortDescription: "Juicy Egyptian pomegranates with distinctive taste",
     description:
       "Deep-red Egyptian pomegranates with high juice content and long storage life, perfect for retail and juicing.",
-    image: "https://www.genex-corp.com/__l5e/assets-v1/506c9cec-81a3-4676-8dcf-bc7b1d309aae/pomegranate-real.jpg",
+    image: "/__l5e/assets-v1/2469613d-0ae2-46bd-b882-81bea3d1e4fe/IMG-20260825-WA0112.jpg",
+    gallery: [
+      "/__l5e/assets-v1/2469613d-0ae2-46bd-b882-81bea3d1e4fe/IMG-20260825-WA0112.jpg",
+      "/__l5e/assets-v1/bea980dc-8765-4804-8324-3117042f392b/IMG-20260825-WA0113.jpg",
+    ],
     highlights: ["Wonderful variety", "Rich in antioxidants", "Sea & air freight"],
     season: "September – December",
     packaging: "4.5 kg carton",
@@ -94,7 +110,11 @@ export const products: Product[] = [
     shortDescription: "Fresh white guava rich in Vitamin C",
     description:
       "Aromatic Egyptian white guavas with balanced sweetness, harvested and cooled within hours of picking.",
-    image: "https://www.genex-corp.com/__l5e/assets-v1/04c99c6b-ee7c-44c7-9765-2cde3bc3880d/gv1.jpg",
+    image: "/__l5e/assets-v1/62fbf59b-206e-4768-b28f-0863e910caef/FB_IMG_1782418764347.jpg",
+    gallery: [
+      "/__l5e/assets-v1/62fbf59b-206e-4768-b28f-0863e910caef/FB_IMG_1782418764347.jpg",
+      "https://www.genex-corp.com/__l5e/assets-v1/04c99c6b-ee7c-44c7-9765-2cde3bc3880d/gv1.jpg",
+    ],
     highlights: ["Rich Vitamin C", "Firm texture", "Uniform sizing"],
     season: "August – December",
     packaging: "4 kg carton",
@@ -176,6 +196,118 @@ export const products: Product[] = [
     highlights: ["Beit Alpha type", "Uniform length", "Flow-wrap option"],
     season: "Year-round",
     packaging: "5 kg carton",
+  },
+  {
+    slug: "sweet-potato",
+    name: "Sweet Potatoes",
+    category: "vegetables",
+    categoryLabel: "Vegetables",
+    shortDescription: "Egyptian sweet potatoes packed for export",
+    description:
+      "Premium Egyptian sweet potatoes, washed, graded by size and packed in export cartons for European and Gulf markets.",
+    image: "/__l5e/assets-v1/0304cc86-7496-4560-b2ad-980e9dbec329/IMG-20260825-WA0090.jpg",
+    gallery: [
+      "/__l5e/assets-v1/0304cc86-7496-4560-b2ad-980e9dbec329/IMG-20260825-WA0090.jpg",
+      "/__l5e/assets-v1/7f91e863-971f-4e06-8020-6486fc5940e1/IMG-20260825-WA0089.jpg",
+      "/__l5e/assets-v1/2ee2c278-3eb3-4b99-87e8-ec8de2ee9e50/IMG-20260716-WA0157.jpg",
+      "/__l5e/assets-v1/1f91b5fc-c3fe-4046-9b12-763822a523d8/IMG-20260716-WA0173.jpg",
+    ],
+    highlights: ["Beauregard variety", "Sizes 150–600 gm+", "Export cartons, Product of Egypt"],
+    season: "September – April",
+    packaging: "5 kg / 6 kg carton",
+  },
+  {
+    slug: "banana",
+    name: "Bananas",
+    category: "fruits",
+    categoryLabel: "Fruits",
+    shortDescription: "Green Cavendish bananas packed for export",
+    description:
+      "Firm green Cavendish bananas harvested at export maturity, labeled and packed in ventilated cartons with cold-chain handling.",
+    image: "/__l5e/assets-v1/6bb14bd3-12e7-4551-bc11-0bd8b46905b3/IMG-20260825-WA0105.jpg",
+    gallery: [
+      "/__l5e/assets-v1/6bb14bd3-12e7-4551-bc11-0bd8b46905b3/IMG-20260825-WA0105.jpg",
+      "/__l5e/assets-v1/dc42a8e4-1328-4420-b2a7-63ac09e18887/IMG-20260825-WA0104.jpg",
+    ],
+    highlights: ["Cavendish variety", "Labeled & liner-packed", "13.5 kg export cartons"],
+    season: "Year-round",
+    packaging: "13.5 kg carton",
+  },
+  {
+    slug: "onion",
+    name: "Onions",
+    category: "vegetables",
+    categoryLabel: "Vegetables",
+    shortDescription: "Egyptian golden and red onions in mesh bags",
+    description:
+      "Well-cured Egyptian onions with tight skins and long storage life, graded by size and packed in mesh bags or cartons for bulk export.",
+    image: "/__l5e/assets-v1/1efb2daf-8e15-4e87-811d-bebb48cfce33/FB_IMG_1774911658889.jpg",
+    gallery: [
+      "/__l5e/assets-v1/1efb2daf-8e15-4e87-811d-bebb48cfce33/FB_IMG_1774911658889.jpg",
+      "/__l5e/assets-v1/c8f6a10a-a6b2-49a2-869c-cccb95c5f792/IMG-20260508-WA0067.jpg",
+    ],
+    highlights: ["Golden & red varieties", "Sizes 40–90 mm", "Mesh bags 5/10/25 kg"],
+    season: "March – August",
+    packaging: "Mesh bags or 10 kg cartons",
+  },
+  {
+    slug: "barhi-dates",
+    name: "Barhi Dates",
+    category: "dates",
+    categoryLabel: "Dates",
+    shortDescription: "Fresh yellow Barhi dates, crisp and sweet",
+    description:
+      "Fresh yellow Barhi dates picked at the khalal stage — crisp, sweet and cooled immediately for air and sea freight to Gulf and European markets.",
+    image: "/__l5e/assets-v1/4f5436ee-c81d-4e76-a822-7194bc7f9beb/IMG-20260825-WA0085.jpg",
+    gallery: [
+      "/__l5e/assets-v1/4f5436ee-c81d-4e76-a822-7194bc7f9beb/IMG-20260825-WA0085.jpg",
+      "/__l5e/assets-v1/ab84e3ba-1d33-4b52-87c0-0d0b1431069f/IMG-20260825-WA0084.jpg",
+    ],
+    highlights: ["Khalal stage, yellow Barhi", "Cluster & loose packs", "Cold-chain from harvest"],
+    season: "July – September",
+    packaging: "5 kg carton",
+  },
+  {
+    slug: "green-olives",
+    name: "Green Table Olives",
+    category: "pickles",
+    categoryLabel: "Pickles & Olives",
+    shortDescription: "Whole, pitted and stuffed green olives in brine",
+    description:
+      "Egyptian green table olives fermented in natural brine and graded by caliber — available whole, pitted, sliced or cracked in olive oil for retail and food service.",
+    image: "/__l5e/assets-v1/320f684e-d29a-4285-86c3-65458ef3e27d/IMG-20260825-WA0033.jpg",
+    gallery: ["/__l5e/assets-v1/320f684e-d29a-4285-86c3-65458ef3e27d/IMG-20260825-WA0033.jpg", "/__l5e/assets-v1/7942b711-64fc-48af-a7a5-a4873727b048/IMG-20260825-WA0049.jpg"],
+    highlights: ["Whole, pitted & cracked", "Natural brine fermentation", "Retail jars & bulk pails"],
+    season: "Year-round",
+    packaging: "Glass jars, 1 kg tins, 10 kg pails",
+  },
+  {
+    slug: "mixed-olives",
+    name: "Mixed Olives Selection",
+    category: "pickles",
+    categoryLabel: "Pickles & Olives",
+    shortDescription: "Green, black and kalamata-style olives assortment",
+    description:
+      "A full assortment of Egyptian table olives — green, black, sliced and kalamata-style — prepared to export specifications for delis, retail and HORECA clients.",
+    image: "/__l5e/assets-v1/a9fbfc9d-59ff-4799-93ae-6a32220d0b61/IMG-20260825-WA0034.jpg",
+    gallery: ["/__l5e/assets-v1/a9fbfc9d-59ff-4799-93ae-6a32220d0b61/IMG-20260825-WA0034.jpg", "/__l5e/assets-v1/e24f18d3-f709-40b2-bec9-7ca96885b93d/IMG-20260825-WA0053.jpg", "/__l5e/assets-v1/0154334a-3702-43a1-98e8-185d40c33c0f/IMG-20260825-WA0044.jpg", "/__l5e/assets-v1/a08d4135-ebf8-499b-88d8-94f06a9d0c4a/IMG-20260825-WA0052.jpg"],
+    highlights: ["Green, black & kalamata style", "Sliced or whole", "Custom brine recipes"],
+    season: "Year-round",
+    packaging: "Jars, tins and food-grade pails",
+  },
+  {
+    slug: "pickled-jalapeno",
+    name: "Pickled Jalapeño Peppers",
+    category: "pickles",
+    categoryLabel: "Pickles & Olives",
+    shortDescription: "Sliced jalapeño peppers pickled and canned",
+    description:
+      "Sliced green jalapeño peppers pickled in vinegar brine and canned in a modern facility — a consistent, shelf-stable topping for pizzerias, restaurants and retail.",
+    image: "/__l5e/assets-v1/ee9ec975-bead-44ae-bfc5-0b9cd9dbc204/IMG-20260825-WA0068.jpg",
+    gallery: ["/__l5e/assets-v1/ee9ec975-bead-44ae-bfc5-0b9cd9dbc204/IMG-20260825-WA0068.jpg", "/__l5e/assets-v1/707488b9-71d8-4be2-bb2d-75e93594eab0/IMG-20260825-WA0059.jpg"],
+    highlights: ["Uniform slicing", "Shelf-stable canning", "A10 tins & retail jars"],
+    season: "Year-round",
+    packaging: "A10 tins (2.9 kg), retail jars",
   },
 ];
 

@@ -77,6 +77,11 @@ export const dict = {
       partnersEyebrow: "Trusted Worldwide",
       partnersTitle: "Our Partners & Clients Worldwide",
       partnersDesc: "Retailers, wholesalers, and distributors across Europe, the Gulf, and Africa.",
+      ownerEyebrow: "Leadership",
+      ownerTitle: "A word from our founder",
+      ownerQuote:
+        "Every carton that leaves our packhouse carries my name. We built Cairo Sky on one promise: the same quality in the box that we show you in the field.",
+      ownerName: "Founder & Managing Director, Cairo Sky",
       ctaTitle: "Looking for a Reliable Supplier?",
       ctaDesc: "Contact us today for the best price offers on our high-quality agricultural products.",
       whatsapp: "WhatsApp Us",
@@ -167,8 +172,8 @@ export const dict = {
     site: {
       description: "Cairo Sky exports the finest Egyptian fruits, vegetables, dates, juices, and frozen products to Europe, the Gulf, and beyond.",
       offices: [
-        { city: "Cairo, Egypt", note: "Head Office" },
-        { city: "Alexandria, Egypt", note: "Export Hub" },
+        { city: "El Beheira – Desert Road, Km 59, El Yassin Station", note: "Head Office – Agricultural Produce Export" },
+        { city: "Alexandria – El Montazah", note: "Branch Office" },
       ],
     },
     categories: {
@@ -179,6 +184,7 @@ export const dict = {
       juices: { name: "Juices", description: "Natural juices from oranges, mangoes, guavas, strawberries and pomegranates." },
       frozen: { name: "Frozen Products", description: "IQF frozen fruits and vegetables of the highest export quality for European clients." },
       seafood: { name: "Frozen Seafood", description: "Premium IQF frozen shrimp, calamari, and fish fillets for European export." },
+      pickles: { name: "Pickles & Olives", description: "Green and black table olives, kalamata-style olives and pickled jalapeño peppers in brine." },
     },
     products_data: {
       orange: {
@@ -277,6 +283,69 @@ export const dict = {
         season: "Year-round",
         packaging: "5 kg carton",
       },
+      "sweet-potato": {
+        name: "Sweet Potatoes",
+        shortDescription: "Egyptian sweet potatoes packed for export",
+        description:
+          "Premium Egyptian sweet potatoes, washed, graded by size and packed in export cartons for European and Gulf markets.",
+        highlights: ["Beauregard variety", "Sizes 150–600 gm+", "Export cartons, Product of Egypt"],
+        season: "September – April",
+        packaging: "5 kg / 6 kg carton",
+      },
+      banana: {
+        name: "Bananas",
+        shortDescription: "Green Cavendish bananas packed for export",
+        description:
+          "Firm green Cavendish bananas harvested at export maturity, labeled and packed in ventilated cartons with cold-chain handling.",
+        highlights: ["Cavendish variety", "Labeled & liner-packed", "13.5 kg export cartons"],
+        season: "Year-round",
+        packaging: "13.5 kg carton",
+      },
+      onion: {
+        name: "Onions",
+        shortDescription: "Egyptian golden and red onions in mesh bags",
+        description:
+          "Well-cured Egyptian onions with tight skins and long storage life, graded by size and packed in mesh bags or cartons for bulk export.",
+        highlights: ["Golden & red varieties", "Sizes 40–90 mm", "Mesh bags 5/10/25 kg"],
+        season: "March – August",
+        packaging: "Mesh bags or 10 kg cartons",
+      },
+      "barhi-dates": {
+        name: "Barhi Dates",
+        shortDescription: "Fresh yellow Barhi dates, crisp and sweet",
+        description:
+          "Fresh yellow Barhi dates picked at the khalal stage — crisp, sweet and cooled immediately for air and sea freight to Gulf and European markets.",
+        highlights: ["Khalal stage, yellow Barhi", "Cluster & loose packs", "Cold-chain from harvest"],
+        season: "July – September",
+        packaging: "5 kg carton",
+      },
+      "green-olives": {
+        name: "Green Table Olives",
+        shortDescription: "Whole, pitted and stuffed green olives in brine",
+        description:
+          "Egyptian green table olives fermented in natural brine and graded by caliber — available whole, pitted, sliced or cracked in olive oil for retail and food service.",
+        highlights: ["Whole, pitted & cracked", "Natural brine fermentation", "Retail jars & bulk pails"],
+        season: "Year-round",
+        packaging: "Glass jars, 1 kg tins, 10 kg pails",
+      },
+      "mixed-olives": {
+        name: "Mixed Olives Selection",
+        shortDescription: "Green, black and kalamata-style olives assortment",
+        description:
+          "A full assortment of Egyptian table olives — green, black, sliced and kalamata-style — prepared to export specifications for delis, retail and HORECA clients.",
+        highlights: ["Green, black & kalamata style", "Sliced or whole", "Custom brine recipes"],
+        season: "Year-round",
+        packaging: "Jars, tins and food-grade pails",
+      },
+      "pickled-jalapeno": {
+        name: "Pickled Jalapeño Peppers",
+        shortDescription: "Sliced jalapeño peppers pickled and canned",
+        description:
+          "Sliced green jalapeño peppers pickled in vinegar brine and canned in a modern facility — a consistent, shelf-stable topping for pizzerias, restaurants and retail.",
+        highlights: ["Uniform slicing", "Shelf-stable canning", "A10 tins & retail jars"],
+        season: "Year-round",
+        packaging: "A10 tins (2.9 kg), retail jars",
+      },
     },
   },
   ar: {
@@ -316,6 +385,11 @@ export const dict = {
       partnersEyebrow: "ثقة عالمية",
       partnersTitle: "شركاؤنا وعملاؤنا حول العالم",
       partnersDesc: "شبكات تجزئة وموزّعون وتجار جملة في أوروبا والخليج وأفريقيا.",
+      ownerEyebrow: "القيادة",
+      ownerTitle: "كلمة من مؤسس الشركة",
+      ownerQuote:
+        "كل كرتونة تخرج من محطة التعبئة تحمل اسمي. أسّسنا Cairo Sky على وعد واحد: نفس الجودة التي نُريها لك في المزرعة تجدها داخل الصندوق.",
+      ownerName: "المؤسس والعضو المنتدب – Cairo Sky",
       ctaTitle: "تبحث عن مورّد موثوق؟",
       ctaDesc: "تواصل معنا اليوم للحصول على أفضل الأسعار على منتجاتنا الزراعية عالية الجودة.",
       whatsapp: "راسلنا على واتساب",
@@ -406,8 +480,8 @@ export const dict = {
     site: {
       description: "تُصدِّر Cairo Sky أجود الفواكه والخضروات والتمور والعصائر والمنتجات المجمدة المصرية إلى أوروبا والخليج وما بعدهما.",
       offices: [
-        { city: "القاهرة، مصر", note: "المقر الرئيسي" },
-        { city: "الإسكندرية، مصر", note: "مركز التصدير" },
+        { city: "البحيرة – الطريق الصحراوي، الكيلو 59، محطة الياسين", note: "المقر الرئيسي – لتصدير الحاصلات الزراعية" },
+        { city: "الإسكندرية – المنتزه", note: "المقر الفرعي" },
       ],
     },
     categories: {
@@ -417,6 +491,7 @@ export const dict = {
       dates: { name: "تمور", description: "مجدول، عجوة، سُكري، برحي، دقلة نور وسعيدي بجودة عالية." },
       juices: { name: "عصائر", description: "عصائر طبيعية من البرتقال والمانجو والجوافة والفراولة والرمان." },
       frozen: { name: "منتجات مجمدة", description: "فواكه وخضروات مجمدة IQF بأعلى جودة تصديرية للعملاء الأوروبيين." },
+      pickles: { name: "مخللات وزيتون", description: "زيتون أخضر وأسود ومخلل الفلفل الهالبينو بجودة تصديرية في محلول ملحي طبيعي." },
       seafood: { name: "مأكولات بحرية مجمدة", description: "جمبري وكاليماري وفيليه سمك مجمد IQF بجودة عالية للتصدير الأوروبي." },
     },
     products_data: {
@@ -515,6 +590,69 @@ export const dict = {
         highlights: ["نوع بيت ألفا", "طول موحّد", "خيار تغليف flow-wrap"],
         season: "طوال العام",
         packaging: "كرتون 5 كجم",
+      },
+      "sweet-potato": {
+        name: "بطاطا حلوة",
+        shortDescription: "بطاطا حلوة مصرية معبأة للتصدير",
+        description:
+          "بطاطا حلوة مصرية ممتازة، مغسولة ومصنّفة حسب الحجم ومعبأة في كراتين تصدير للأسواق الأوروبية والخليجية.",
+        highlights: ["صنف بيوريجارد", "أحجام 150–600 جم+", "كراتين تصدير – منتج مصر"],
+        season: "سبتمبر – أبريل",
+        packaging: "كرتون 5 – 6 كجم",
+      },
+      banana: {
+        name: "موز",
+        shortDescription: "موز كافنديش أخضر معبأ للتصدير",
+        description:
+          "موز كافنديش أخضر متماسك يُجمع في مرحلة النضج التصديري، مُلصق بالعلامة ومعبأ في كراتين مهوّاة مع سلسلة تبريد كاملة.",
+        highlights: ["صنف كافنديش", "ملصقات وتغليف داخلي", "كراتين تصدير 13.5 كجم"],
+        season: "طوال العام",
+        packaging: "كرتون 13.5 كجم",
+      },
+      onion: {
+        name: "بصل",
+        shortDescription: "بصل مصري ذهبي وأحمر في شكائر شبكية",
+        description:
+          "بصل مصري مُعالج جيدًا بقشرة متماسكة وعمر تخزيني طويل، مصنّف حسب الحجم ومعبأ في شكائر شبكية أو كراتين للتصدير بكميات كبيرة.",
+        highlights: ["أصناف ذهبي وأحمر", "أحجام 40–90 مم", "شكائر 5/10/25 كجم"],
+        season: "مارس – أغسطس",
+        packaging: "شكائر شبكية أو كرتون 10 كجم",
+      },
+      "barhi-dates": {
+        name: "بلح برحي",
+        shortDescription: "بلح برحي أصفر طازج مقرمش وحلو المذاق",
+        description:
+          "بلح برحي أصفر طازج يُقطف في مرحلة الخلال — مقرمش وحلو ويتم تبريده فور الحصاد للشحن الجوي والبحري لأسواق الخليج وأوروبا.",
+        highlights: ["مرحلة الخلال – برحي أصفر", "عبوات عراجين وسائب", "سلسلة تبريد من الحصاد"],
+        season: "يوليو – سبتمبر",
+        packaging: "كرتون 5 كجم",
+      },
+      "green-olives": {
+        name: "زيتون أخضر للمائدة",
+        shortDescription: "زيتون أخضر كامل ومنزوع النوى ومحشو في محلول ملحي",
+        description:
+          "زيتون مائدة مصري أخضر يُخمَّر في محلول ملحي طبيعي ويُصنّف حسب الحجم — متاح كامل أو منزوع النوى أو شرائح أو مشقوق بزيت الزيتون للتجزئة والمطاعم.",
+        highlights: ["كامل ومنزوع النوى ومشقوق", "تخمير بمحلول ملحي طبيعي", "برطمانات تجزئة وعبوات كبيرة"],
+        season: "طوال العام",
+        packaging: "برطمانات زجاج، علب 1 كجم، عبوات 10 كجم",
+      },
+      "mixed-olives": {
+        name: "تشكيلة زيتون مشكل",
+        shortDescription: "تشكيلة زيتون أخضر وأسود وكالاماتا",
+        description:
+          "تشكيلة كاملة من زيتون المائدة المصري — أخضر وأسود وشرائح وكالاماتا — مُجهّزة بمواصفات تصديرية لمحلات الأغذية والتجزئة وقطاع الضيافة.",
+        highlights: ["أخضر وأسود وكالاماتا", "شرائح أو كامل", "وصفات تخليل حسب الطلب"],
+        season: "طوال العام",
+        packaging: "برطمانات وعلب وعبوات غذائية",
+      },
+      "pickled-jalapeno": {
+        name: "فلفل هالبينو مخلل",
+        shortDescription: "شرائح فلفل هالبينو مخللة ومعلبة",
+        description:
+          "شرائح فلفل هالبينو أخضر مخللة في محلول خل ومعلبة في مصنع حديث — إضافة ثابتة الجودة وطويلة الصلاحية للمطاعم والمخابز والتجزئة.",
+        highlights: ["تقطيع منتظم", "تعليب طويل الصلاحية", "علب A10 وبرطمانات تجزئة"],
+        season: "طوال العام",
+        packaging: "علب A10 (2.9 كجم) وبرطمانات",
       },
     },
   },

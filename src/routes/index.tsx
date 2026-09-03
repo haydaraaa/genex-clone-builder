@@ -81,29 +81,44 @@ function HomePage() {
 
 
       <section className="py-20">
-        <div className="mx-auto max-w-7xl px-4 grid gap-10 md:grid-cols-2 items-center">
-          <div>
-            <SectionHeading
-              eyebrow={t.home.aboutEyebrow}
-              title={t.home.aboutTitle}
-              description={t.home.aboutDesc}
-              align="left"
-            />
-            <div className="mt-6 grid grid-cols-2 gap-4">
-              {t.stats.slice(0, 2).map((s) => (
-                <div key={s.label} className="rounded-xl border border-border bg-card p-5">
-                  <div className="font-serif text-3xl font-bold text-primary">{s.value}</div>
-                  <div className="text-sm text-muted-foreground mt-1">{s.label}</div>
-                </div>
-              ))}
-            </div>
+        <div className="mx-auto max-w-4xl px-4">
+          <SectionHeading
+            eyebrow={t.home.aboutEyebrow}
+            title={t.home.aboutTitle}
+            description={t.home.aboutDesc}
+          />
+          <div className="mt-8 grid grid-cols-2 gap-4 max-w-xl mx-auto">
+            {t.stats.slice(0, 2).map((s) => (
+              <div key={s.label} className="rounded-xl border border-border bg-card p-5 text-center">
+                <div className="font-serif text-3xl font-bold text-primary">{s.value}</div>
+                <div className="text-sm text-muted-foreground mt-1">{s.label}</div>
+              </div>
+            ))}
           </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-secondary/40">
+        <div className="mx-auto max-w-6xl px-4 grid gap-10 md:grid-cols-[minmax(0,420px)_1fr] items-center">
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="https://www.genex-corp.com/assets/category-fruits-b1JypkDD.jpg"
-              alt="Egyptian fruits"
-              className="w-full h-96 object-cover"
+              src="/__l5e/assets-v1/089005b3-e8ba-4991-8d57-c87f1cb880cb/IMG-20260902-WA0003.jpg"
+              alt="Cairo Sky founder and managing director"
+              loading="lazy"
+              className="w-full h-[420px] object-cover"
             />
+          </div>
+          <div>
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">
+              {t.home.ownerEyebrow}
+            </span>
+            <h2 className="mt-3 font-serif text-3xl sm:text-4xl font-bold text-foreground">
+              {t.home.ownerTitle}
+            </h2>
+            <blockquote className="mt-5 border-s-4 border-primary ps-5 text-lg text-muted-foreground leading-relaxed">
+              {t.home.ownerQuote}
+            </blockquote>
+            <div className="mt-5 text-sm font-semibold text-foreground">{t.home.ownerName}</div>
           </div>
         </div>
       </section>

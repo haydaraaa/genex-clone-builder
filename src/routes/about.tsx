@@ -33,8 +33,8 @@ function AboutPage() {
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-10 items-center">
           <img
-            src="https://www.genex-corp.com/assets/category-vegetables-psN3OUoF.jpg"
-            alt="Egyptian farm"
+            src="/__l5e/assets-v1/feb4f295-c42a-45a9-973e-2a81b98ef946/IMG-20260825-WA0006.jpg"
+            alt="Cairo Sky team inspecting a carton of export lemons"
             className="rounded-2xl shadow-xl w-full h-96 object-cover"
           />
           <div>
